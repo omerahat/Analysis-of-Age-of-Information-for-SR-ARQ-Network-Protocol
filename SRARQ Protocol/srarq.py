@@ -3,11 +3,11 @@ from create_status import createStatus
 def SRARQ(windowSize=3, probOfNACK=0.1, packetCount=1000):
      packets = list(range(packetCount, 0, -1))
      window = [0] * windowSize
-     step = 0
+     time = 0
     
      while packets or any(window):
-          step += 1
-          print(f"\n------ Step {step} ------")
+          time += 1
+          print(f"\n------ Step {time} ------")
         
           # Load packets into window
           for index in range(windowSize):
