@@ -18,7 +18,7 @@ def AoIOfSRARQ(windowSize= 3, probOfBadChannel= 0.2 ,probOfBadNACK= 0.8, probOfG
                     window[index] = packets.pop()
 
           #print("Window after loading packets:", window)
-          if channelStatus:   
+          if not channelStatus:   
           # Process the packets in the window
                for index in range(windowSize):
                     if window[index] > 0:

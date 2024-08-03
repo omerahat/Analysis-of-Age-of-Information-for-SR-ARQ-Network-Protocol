@@ -19,6 +19,3 @@ def calculateExpected(freqFilePath = "frequency_data.csv", AoIDictFilePath = "ao
      result = sum_aoi_product / length_of_data
 
      return result
-
-# Test the function
-print(calculateExpected())
