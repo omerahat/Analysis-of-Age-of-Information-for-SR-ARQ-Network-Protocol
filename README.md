@@ -5,6 +5,7 @@
 
 #### What's New? 🎉:
 
+- Log ADDED
 - Sigma Values ADDED
 - Pi Values ADDED
 - Expected Value ADDED
